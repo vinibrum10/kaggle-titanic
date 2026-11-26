@@ -1,0 +1,24 @@
+# Dados oficiais — baixe em https://www.kaggle.com/competitions/titanic/data
+data/*
+!data/.gitkeep
+
+# Ambiente e caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Sistema e IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Artefatos locais
+*.egg-info/
+.python-version
