@@ -3,11 +3,13 @@
 from .features import (
     TitanicFeatureEngineer,
     build_preprocessor,
+    extract_surname,
     extract_title,
 )
 
 __all__ = [
     "TitanicFeatureEngineer",
     "build_preprocessor",
+    "extract_surname",
     "extract_title",
 ]
